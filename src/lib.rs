@@ -10,8 +10,8 @@
 
 #![warn(missing_docs)]
 
-pub mod encoding;
-pub mod chunkenc;
-pub mod wal;
-pub mod head;
 pub mod block;
+pub mod chunkenc;
+pub mod encoding;
+pub mod head;
+pub mod wal;
